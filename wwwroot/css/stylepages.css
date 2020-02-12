@@ -1,0 +1,269 @@
+﻿body {
+ 
+    
+}
+/*voor datetime css*/
+/*.ui-datepicker {
+    width: 216px;
+    height: auto;
+    margin: 5px auto 0;
+    font: 9pt Arial, sans-serif;
+    -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, .5);
+}
+
+
+.ui-datepicker-header {   
+    color: red;
+    font-weight: bold;
+   
+}
+
+
+.ui-datepicker-title {
+    text-align: center;
+}
+
+.ui-datepicker-prev, .ui-datepicker-next {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    cursor: pointer;
+    background-color:red;
+    color:green;
+    line-height: 600%;
+    overflow: hidden;
+}
+
+
+
+
+/*voor datatime cs*/
+
+#EditSubmit {
+    
+    background-color: #4CAF50;
+    border: 2px solid red;
+    color: white;
+    padding: 1px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight:bold;
+
+}
+
+    #EditSubmit:hover {
+        background-color:darkblue;
+        font-size: 110%;
+    }
+    #notificationsheader {
+    background-color: black;
+    color: green;
+    font-weight: bold;
+    text-align: center;
+}
+.deadlineheader {
+
+    color:red;
+    font-weight:bold;
+}
+
+
+
+#studenttable {
+    border-collapse: separate;
+    border-spacing: 50px 0;
+    width: 100%;
+}
+#mytd {
+    padding: 10px 0;
+}
+
+.ConvertButtons {
+    background-color: deeppink;
+    color: white;    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;    
+    cursor: pointer;
+    font-weight: bold;
+    border: 3px solid red;
+}
+
+
+.mybuttons {   
+    background-color: darkblue;   
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight:bold;
+    /*border:3px solid red;*/
+}
+
+.mybuttons2 {
+    background-color: #1C6EA4;
+    color: white;
+    padding: 6px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin: 4px 2px;
+    cursor: pointer;
+    font-weight: bold;
+    /*border:3px solid red;*/
+}
+
+#logoutbutton {
+
+    position:absolute;
+    left:100px;
+}
+
+
+
+table.bluetable {
+    width: 100%;
+    text-align: center;
+}
+
+table.bluetable thead {
+    background: #1C6EA4;
+    border-bottom: 2px solid #444444;
+}
+
+    table.bluetable thead th {
+        font-size: 15px;
+        font-weight: bold;
+        color: #FFFFFF;
+        border-left: 2px solid #D0E4F5;
+        text-align: center;
+    }
+
+ table.bluetable thead th:first-child {
+    border-left: none;
+}
+
+
+    
+
+
+
+table.bluetable tr:nth-child(even) {
+    background: #D0E4F5;
+}
+/*//////////////////////////////////////////alle notities begint hier///////////////////////////////////////////////////*/
+/*.caret2::before {
+    content: "\25BC";
+    color: white;
+    display: block;
+    margin-right: 6px;
+}
+    
+
+
+.crmbutton {
+    background-color: darkblue;
+    border: none;
+    color: white;
+    padding: 20px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    cursor: pointer;
+    width: 65%; 
+    position: relative;
+    margin: auto;
+    border-radius: 12px;
+    margin-bottom: 25px;
+}
+
+    .crmbutton:hover {
+        background-color: blue;
+    }
+
+
+.center {
+    margin: auto;
+    width: 100%;
+    text-align: center;
+}*/
+/*.shownotities {
+    display: none;
+    width: 65%; 
+    margin: auto;
+}*/
+#searchbox {
+    margin-bottom:8px;
+    margin-left:12px;
+}
+.notitieinformatie {
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    border-right: 2px solid black;
+    border-left:2px solid black;
+    border-bottom: 2px solid black;
+   
+}
+#notitiedatum {
+    border-top: 2px solid black;
+}
+
+
+.hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    color: blue;
+}
+
+/*#crmbutton2 {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 12px;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#test {
+    margin-left: 135px; 
+  
+}*/
+
+
+
+
+
+/*//////////////////////////////////////////alle notities eindigt hier///////////////////////////////////////////////////*/
+
+
